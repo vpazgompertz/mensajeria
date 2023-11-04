@@ -1,0 +1,108 @@
+body{
+    padding: 0px;
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+.main-container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0px 3px 5px 5px #BEC1BB;
+}
+.contacts{
+    flex: 0 0 20rem;
+    border-right: 2px solid #BEC1BB;
+    justify-content: space-between;
+}
+.stats-user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    padding-left: 25px;
+    border-bottom: 2px solid #BEC1BB;
+}
+
+.icon{
+    margin-left: 70px;
+    font-size: 25px;
+}
+#button{
+    display: flex;
+    justify-content: center;
+    background-color: #A491D2;
+    color: #fff;
+    padding: 20px 70px;
+    margin: 50px;
+    border: none;
+    font-size: medium;
+}
+.chat{
+    border-bottom:3px solid #BEC1BB;
+}
+h2{
+    font-size: medium;
+    margin-bottom: 0;
+    font-weight: 500;
+    padding-top: 7px;
+}
+h6{
+    margin-top: 0;
+    font-size: x-small;
+    color: #BEC1BB;
+    font-weight: 500;
+}
+
+#img-header{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.imagen{
+    border-radius: 100%;
+    width: 55px;
+    height: 55px;
+    border:2px solid #BEC1BB;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #BEC1BB;
+}
+p{
+    font-size: small;
+    font-family: 'open sans', sans-serif;
+    margin-top: 4px;
+}
+.messages{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fdfdfd;  
+    width: 100vw; 
+    text-align: center;
+}
+
+h1{
+    font-size: 45px;
+    margin-bottom:0;
+    font-weight: 500;
+}
+
+#img{
+ width: 270px;
+ border-radius: 10px;
+}
+
+
+
